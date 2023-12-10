@@ -7,6 +7,29 @@ Let’s begin, my path “Leo Developer Toolkit through Git Bash”
 1. Install [Git Bash (Follow instructions for Windows)](https://git-scm.com/downloads)
 2. Install [the components you need for building C and C++ apps](https://visualstudio.microsoft.com/vs/features/cplusplus/)
 
+or run this 
+
+```
+#!/bin/bash
+sudo apt update && sudo apt upgrade -y
+sudo apt-get install git-all -y
+sudo apt-get install curl -y
+sudo su
+```
+
+```
+reboot
+```
+
+```
+sudo apt-get update
+sudo apt-get install build-essential -y
+sudo apt-get install libc6-dev -y
+sudo apt-get update
+sudo apt-get install pkg-config libssl-dev -y
+sudo apt-get update
+```
+
 ## What do we do:
 
 ### 1. Download and install Leo
